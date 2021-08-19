@@ -8,7 +8,10 @@ I began by using the original code adding a ticker index, creating three arrays,
 See the refactored coding below.
 
 
-Sub AllStocksAnalysisRefactored()
+###Refactored
+
+   Sub AllStocksAnalysisRefactored()
+   
     Dim startTime As Single
     Dim endTime  As Single
 
