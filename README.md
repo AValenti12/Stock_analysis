@@ -6,6 +6,8 @@ The purpose of this project was to refactor VBA code with provided stock data in
 ## Results
 I began by using the original code adding a ticker index, creating three arrays, tickerIndex, then created Nested for loops and variables to complete the analysis. 
 See the refactored coding below.
+
+
 Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
     Dim endTime  As Single
@@ -129,8 +131,7 @@ Sub AllStocksAnalysisRefactored()
  
     endTime = Timer
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
-
-End Sub
+    End Sub
 
 
 
