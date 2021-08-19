@@ -61,7 +61,6 @@ Sub AllStocksAnalysisRefactored()
     ''2a) Create a for loop to initialize the tickerVolumes to zero.
     For i = 0 To 11
         tickerVolumes(i) = 0
-        
     Next i
         
     ''2b) Loop over all the rows in the spreadsheet.
@@ -78,7 +77,7 @@ Sub AllStocksAnalysisRefactored()
         'End If
         
         '3c) check if the current row is the last row with the selected ticker
-         'If the next row’s ticker doesn’t match, increase the tickerIndex.
+         'If the next rowâ€™s ticker doesnâ€™t match, increase the tickerIndex.
         'If  Then
             If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
         tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
@@ -128,10 +127,7 @@ Sub AllStocksAnalysisRefactored()
         End If
         
     Next i
- 
-    endTime = Timer
-    MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
-    End Sub
+
 
 
 
