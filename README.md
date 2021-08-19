@@ -8,7 +8,6 @@ I began by using the original code adding a ticker index, creating three arrays,
 See the refactored coding below.
 
 
-##Refactored
 
     Sub AllStocksAnalysisRefactored()
    
